@@ -1,3 +1,19 @@
+.container {
+  background-color: rgb(211, 205, 205);
+  animation-name: container;
+  animation-duration: 10s;
+  box-shadow: #555 1px 1px 8px 1px;
+}
+
+@keyframes container {
+  from {
+    background-color: rgb(104, 103, 103);
+  }
+  to {
+    background-color: rgb(211, 205, 205);
+  }
+}
+
 ul {
   padding: 0;
   width: 1200px;
@@ -31,7 +47,7 @@ li {
 
 .btn:hover {
   color: rgb(255, 255, 255);
-  background: rgb(134, 131, 131);
+  background: rgb(153, 152, 152);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
