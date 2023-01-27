@@ -12,7 +12,7 @@ export class ImageService {
     return this.visibleImages;
   }
   getImage(id: number) {
-    return IMAGES.slice(0).find((image) => image.id === id);
+    return IMAGES.slice(0).find((image) => image.id == id);
   }
 }
 
@@ -70,6 +70,96 @@ const IMAGES = [
     category: 'Luvas',
     caption: 'transport',
     url: 'assets/img/transport.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
+  },
+  {
+    id: 10,
+    category: 'Luvas',
+    caption: 'convoy',
+    url: 'assets/img/convoy.png',
   },
   {
     id: 10,

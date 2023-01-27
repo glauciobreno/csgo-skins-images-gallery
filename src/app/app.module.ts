@@ -12,6 +12,7 @@ import { ImageFilterPipe } from './image/shared/filter.pipe';
 import { appRoutes } from 'src/routes';
 import { RouterModule } from '@angular/router';
 import { ImageDetailComponent } from './image/image-detail.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ImageDetailComponent } from './image/image-detail.component';
     NgbAlertModule,
     NgbModule,
     RouterModule.forRoot(appRoutes),
+    NgxPaginationModule,
   ],
   providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent],

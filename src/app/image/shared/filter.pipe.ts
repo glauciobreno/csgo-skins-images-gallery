@@ -2,13 +2,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'imageFilter' })
 export class ImageFilterPipe implements PipeTransform {
-  transform(items: any[], filterBy: string): any {
-    if (!filterBy || filterBy === 'todas') {
+  transform(items: any[], criteria: string): any {
+    if (criteria == 'todas') {
       return items;
-    } else {
+    } else
       return items.filter((item) => {
-        return item.category === filterBy;
+        return item.category === criteria;
       });
-    }
   }
 }
