@@ -1,16 +1,18 @@
 .container {
-  background-color: rgb(211, 205, 205);
+  background-color: #fff;
   animation-name: container;
-  animation-duration: 10s;
-  box-shadow: #555 1px 1px 8px 1px;
+  animation-duration: 3s;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes container {
   from {
-    background-color: rgb(104, 103, 103);
+    background-color: rgb(172, 169, 169);
   }
   to {
-    background-color: rgb(211, 205, 205);
+    background-color: #fff;
   }
 }
 
@@ -26,9 +28,9 @@ li {
 
 .tn {
   margin: 6px;
-  border: 4px solid #eee;
-  box-shadow: #555 1px 1px 8px 1px;
-  background-color: rgb(226, 216, 216);
+  border: 1px solid #eee;
+  box-shadow: rgb(196, 194, 194) 1px 1px 8px 1px;
+  background-color: rgb(229, 228, 248);
 }
 
 .btn {
@@ -47,10 +49,14 @@ li {
 
 .btn:hover {
   color: rgb(255, 255, 255);
-  background: rgb(153, 152, 152);
+  background: #333;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   transition: 0.5s;
+}
+
+.thumbnail-parent {
+  display: inline;
 }
